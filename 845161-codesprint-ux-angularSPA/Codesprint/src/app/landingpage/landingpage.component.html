@@ -1,0 +1,76 @@
+<div id="t1">
+
+
+    
+    <div class="row">
+        <div class="col-lg-12">
+
+          <img src="\assets\image\giftround.jpeg" class="rounded" alt="image" width="100" height="100">
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            
+                       
+            <div class="topnav">
+    
+                <a class="active"  [routerLink]="['/landing-page']"><span class="glyphicon glyphicon-home"></span>Home</a>
+                <a [routerLink]="['/placegiftcardorder']"><span class="glyphicon glyphicon-shopping-cart"></span>PlaceOrder</a>
+                <a href="#"><span class="glyphicon glyphicon-eye-open"></span>ViewProfile</a>
+                <a [routerLink]="['/contactus']"><span class="glyphicon glyphicon-phone"></span>Contact</a>
+            
+
+            </div>
+
+                 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-9">
+            <div class="container-fluid text-center">
+                <div class="row content">
+                    <div class="col-sm-4 sidenav">
+                        <button [routerLink]="['/landing-page']" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Home</button>                                  <!-- <p> <button [routerLink]="['/view-gift-card-orders']">Register Buyer</button></p> -->
+
+                        <!-- <p> <button [routerLink]="['/view-gift-card-orders']">Register Buyer</button></p> -->
+                        <button [routerLink]="['/viewgiftcardorders']" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Orders</button>
+
+
+                        <button [routerLink]="['/contactus']" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">ContactUs</button>
+  
+                        <!--<button type="button" >About</button><br />
+                        <button type="button" >Projects</button><br />
+                        <button type="button" >Contact</button><br />-->
+                    </div>
+
+
+
+                    <div class="col-lg-8 text-left">
+                       <router-outlet></router-outlet>
+                       
+                            <h1 class="font-weight-bold" style="font-family:'Arial Rounded MT';">ABOUT GIFT CARD</h1>
+                       
+                        <!--<p class="font-weight-bold">Bold text.</p>-->
+                        <p class="lead" id="t2">Celebrate every occasion with your loved ones in a special way. GiftCard India brings to you amazing email gift cards, gift boxes, greeting cards and other easy gifting ideas for every occasion such as anniversaries, birthdays, weddings, festivals and more</p>
+
+                    <div class="col-sm-12 ">
+                        <button class="button" [routerLink]="['/placegiftcardorder']">Place Order</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            </div>
+        </div>
+        <!--<h1 style="font-family:verdana;">This is a heading</h1>
+        <p style="font-family:courier;">This is a paragraph.</p>-->
+        <!--<div>
+            <center><button type="button" class="">Place Order</button></center>
+        </div>-->
+    </div>
+
+
+
+</div>

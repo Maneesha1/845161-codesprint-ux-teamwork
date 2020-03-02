@@ -1,0 +1,18 @@
+#f
+{
+    width:600px;
+    color: white;
+}
+#t2{
+  
+        background-image: url("src\assets\image\formbg.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+    }
+    
+label
+{
+    color:white ;
+}

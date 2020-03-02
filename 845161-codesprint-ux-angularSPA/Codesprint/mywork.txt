@@ -1,0 +1,20 @@
+My associate id:
+123456
+Other team members:
+123457, 123458, 123459, 123460, 123461
+Team lead:
+123460
+My Role in team:
+1. To develop homepage and contact us component
+My development files:
+1. home.component.ts
+2. package.json
+3. home.component.css
+I was strong in:
+1. Template Driven Forms
+2. HttpClient
+3. Documentation
+I was weak in:
+1. Reactive Forms and Forms Validation
+Feedback:
+1. Able to read codesprint document 1 day in advance will help.

@@ -1,0 +1,22 @@
+{
+    "allfriends":[
+        {
+            "id":1,
+            "name":"Prafful Daga",
+            "location":"Chennai",
+            "score":88
+        },
+        {
+            "id":2,
+            "name":"OBB",
+            "location":"Kochi",
+            "score":81
+        },
+        {
+            "id":3,
+            "name":"Mika San",
+            "location":"Tokyo",
+            "score":80
+        }
+    ]
+}
